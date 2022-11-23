@@ -117,3 +117,23 @@ body {
         padding: 0;
     }
 }
+
+@media only screen 
+    and (device-width: 375px) 
+    and (device-height: 667px) 
+    and (-webkit-device-pixel-ratio: 2) {
+    .content {
+        width: 80%;
+        padding: 0;
+    }
+}
+
+@media only screen 
+    and (device-width: 414px) 
+    and (device-height: 736px) 
+    and (-webkit-device-pixel-ratio: 3) {
+    .content {
+        width: 80%;
+        padding: 0;
+    }
+}
